@@ -1,4 +1,7 @@
 # package.accept_keywords# required by yadm (argument)
+mpv-plugin/mpv-mpris **
+>=net-analyzer/ookla-speedtest-1.1.1 ~amd64
+>=games-util/legendary-0.20.29 ~amd64
 >=x11-misc/pcmanfm-1.3.2-r1 ~amd64
 >=x11-libs/libfm-1.3.2 ~amd64
 >=media-gfx/qimgv-1.0.2 ~amd64
@@ -9,10 +12,7 @@
 >=www-apps/jellyfin-10.8.5 ~amd64
 >=app-shells/fzf-fish-9.0 ~amd64
 >=sys-apps/fd-8.4.0 ~amd64
-# required by mangohud (argument)
 games-util/mangohud **
-# required by games-util/mangohud-0.6.8::guru
-# required by mangohud (argument)
 =media-libs/imgui-1.81 ~amd64
 >=games-util/gamemode-1.7 ~amd64
 >=app-emulation/wine-staging-7.18 ~amd64
@@ -21,6 +21,4 @@ games-util/mangohud **
 >=app-admin/ananicy-cpp-1.0.0_rc6-r1 ~amd64
 >=dev-cpp/std-format-0_pre20220112-r1 ~amd64
 app-i18n/crow-translate **
-app-emulation/wine-tkg **
-gui-apps/emote **
 >=sys-process/uksmd-0_pre20220705-r1 ~amd64

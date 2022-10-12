@@ -1,0 +1,5 @@
+# Some rules for computationally or IO expensive tools from the GNU coreutils
+{ "name": "dd",        "type": "BG_CPUIO" }
+{ "name": "du",        "type": "BG_CPUIO" }
+{ "name": "mv",        "type": "BG_CPUIO" }
+

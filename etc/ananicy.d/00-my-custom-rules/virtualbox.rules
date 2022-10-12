@@ -1,0 +1,5 @@
+# FDUPES is a program for identifying or deleting duplicate files residing within specified directories.
+# https://github.com/adrianlopezroche/fdupes
+{ "name": "VirtualBoxVM",  "sched": "batch", "nice": 19 }
+{ "name": "VBoxHeadless",  "sched": "batch", "nice": 19 }
+
