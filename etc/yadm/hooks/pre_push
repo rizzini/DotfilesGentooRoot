@@ -1,0 +1,40 @@
+#!/bin/bash
+if [[ $EUID -ne 0 ]]; then
+   echo "Este script deve ser execuado como root." 
+   exit 1
+fi
+IFS=$(echo -en "\n\b");
+if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/GENTOO_ROOT)"* ]];then
+    for i in $(yadm -Y /etc/yadm stun \
+    /etc/portage/* \
+    /etc/X11/* \
+    /etc/btrbk/* \
+    /etc/systemd/* \
+    /etc/pipewire/* \
+    /etc/pulse/* \
+    /etc/udev/* \
+    /etc/security/* \
+    /etc/ananicy.d/* \
+    /etc/sysctl.d/* \
+    /usr/local/bin/* \
+    /etc/modprobe.d/* \
+    /etc/tmpfiles.d/* \
+    /etc/sddm.conf.d/* \
+    /etc/modules-load.d/* \
+    /etc/wireplumber/* \
+     --porcelain); do
+        if [ -n "$(echo "$i" | grep '??')" ];then
+            yadm -Y /etc/yadm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
+        fi
+    done
+    if [ -n "$(yadm -Y /etc/yadm status --porcelain)" ];then
+        yadm -Y /etc/yadm encrypt 2> /dev/null
+        yadm -Y /etc/yadm status --porcelain;
+        echo -e "\nPressione enter para continuar";
+        read;
+        yadm -Y /etc/yadm commit -a -m "atualizando";
+    fi
+else
+    echo -e "Você não está no subvolume ROOT. push não realizado";
+fi
+

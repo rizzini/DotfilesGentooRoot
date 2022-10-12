@@ -1,0 +1,16 @@
+#SSD
+UUID=1238-0A46  /boot/efi   vfat    rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /   btrfs   rw,noatime,discard,space_cache=v2,subvol=GENTOO_ROOT  0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /home/  btrfs   rw,noatime,discard,space_cache=v2,subvol=GENTOO_HOME  0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /mnt/archlinux  btrfs   rw,noatime,discard,space_cache=v2,subvol=/ 0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /home/lucas/.cache     btrfs           rw,noatime,discard,space_cache=v2,subvol=GENTOO_CACHE    0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/ccache   	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=/CCACHE	0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/var/tmp/portage	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvolid=715,subvol=/PORTAGE	0 0
+UUID=fc7f0201-7c47-4d6c-a368-378c20983f65	none      	swap      	defaults  	0 0
+
+
+#HDD
+UUID=9d5fe8e4-453d-488c-a57b-13e19e2b18d0       /mnt/backup     btrfs           rw,noatime,space_cache=v2,subvol=/    0 0
+UUID=6ee778f7-20da-46e3-a472-180bdbde037b       /mnt/dados      btrfs           rw,noatime,space_cache=v2,subvol=/   0 0
+UUID=C64C8C1D4C8C0A7F                           /mnt/windows	ntfs            rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0
+

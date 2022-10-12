@@ -1,0 +1,6 @@
+[Unit]
+Description=Make BTRFS snapshots and move them to HDD
+
+[Service]
+ExecStart=/home/lucas/Documentos/scripts/btrbk_
+Type=oneshot

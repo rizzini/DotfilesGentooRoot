@@ -1,0 +1,15 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+WINE_DISABLE_FAST_SYNC=1
+WINEFSYNC_FUTEX2=0
+WINEFSYNC=0
+WINEESYNC=0
+WINEDEBUG=-all
+DXVK_LOG_LEVEL=none
+WINEPREFIX=/mnt/archlinux/temp_stuff/prefixo_wine_padrao/
+WINIT_X11_SCALE_FACTOR=0.9
+VISUAl=nano
+EDITOR=nano

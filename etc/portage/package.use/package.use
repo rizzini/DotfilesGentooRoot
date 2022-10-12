@@ -6,7 +6,6 @@
 >=media-plugins/gst-plugins-v4l2-1.20.3 abi_x86_32
 >=media-plugins/gst-plugins-pulse-1.20.3 abi_x86_32
 >=dev-libs/libgudev-237-r1 abi_x86_32
-app-emulation/virtualbox
 >=media-libs/libvpx-1.12.0 postproc
 >=media-plugins/gst-plugins-vpx-1.20.3 abi_x86_32
 media-video/pipewire sound-server
