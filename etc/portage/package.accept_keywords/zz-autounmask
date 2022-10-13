@@ -24,3 +24,4 @@ app-i18n/crow-translate **
 >=sys-process/uksmd-0_pre20220705-r1 ~amd64
 >=sys-kernel/modprobed-db-2.46 ~amd64
 >=net-misc/modem-manager-gui-0.0.20 ~amd64
+>=app-shells/fish-3.3.1-r1 ~amd64
