@@ -7,7 +7,7 @@ if test -d ~/.local/bin
         set -p PATH ~/.local/bin
     end
 end
-alias ls='/usr/bin/exa -al --color=always --group-directories-first --icons';
-alias grep='/usr/bin/grep --color=auto';
+alias ls='/usr/bin/exa -al --color=always --group-directories-first';
+alias grep='/bin/grep --color=auto';
 alias syadm="/usr/bin/sudo /usr/bin/yadm -Y /etc/yadm";
 alias cat="highlight -O ansi --force"

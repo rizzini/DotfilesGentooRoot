@@ -14,6 +14,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/GENTOO_ROOT)"* 
     /etc/pulse/* \
     /etc/udev/* \
     /etc/security/* \
+    /var/db/repos/pessoal/* \
     /etc/ananicy.d/* \
     /etc/sysctl.d/* \
     /usr/local/bin/* \
