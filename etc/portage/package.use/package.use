@@ -1,9 +1,11 @@
-de-plasma/plasma-meta -crash-handler -firewall -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility
+kde-plasma/plasma-meta -crash-handler -firewall -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility
 app-emulation/virtualbox -vboxwebsrv
 net-misc/networkmanager wifi
 dev-qt/qtmultimedia gstreamer
+dev-libs/boost python
 >=media-video/mpv-0.34.1-r1 cplugins libmpv
 media-gfx/imagemagick webp
+dev-libs/libpcre2 pcre32
 net-p2p/deluge -sound
 media-libs/libcanberra alsa
 >=dev-libs/raft-0.15.0 lz4
@@ -75,7 +77,6 @@ dev-vcs/git -webdav
 >=media-libs/gst-plugins-ugly-1.20.3 abi_x86_32
 >=media-libs/gstreamer-1.20.3 abi_x86_32
 >=media-libs/harfbuzz-5.1.0 abi_x86_32
->=media-libs/ladspa-sdk-1.17-r1 abi_x86_32
 >=media-libs/libbluray-1.3.2 abi_x86_32
 >=media-libs/libdca-0.0.7 abi_x86_32
 >=media-libs/libdvdcss-1.4.3 abi_x86_32
@@ -93,9 +94,7 @@ dev-vcs/git -webdav
 >=media-libs/libwebp-1.2.4 abi_x86_32
 >=media-libs/mesa-22.1.7 abi_x86_32
 media-libs/mesa -vaapi
->=media-libs/openh264-2.3.0 abi_x86_32
 >=media-libs/opus-1.3.1-r3 abi_x86_32
->=media-libs/rubberband-3.0.0 ladspa
 >=media-libs/tiff-4.4.0 abi_x86_32
 >=media-libs/vulkan-loader-1.3.216 abi_x86_32
 >=media-libs/x264-0.0.20220222 abi_x86_32
@@ -117,7 +116,7 @@ media-libs/mesa -vaapi
 >=media-sound/cdparanoia-3.10.2-r7 abi_x86_32
 >=media-sound/lame-3.100-r3 abi_x86_32
 >=media-sound/mpg123-1.30.2 abi_x86_32
->=media-video/ffmpeg-4.4.2 abi_x86_32 fdk -amf
+>=media-video/ffmpeg-4.4.2 abi_x86_32 fdk -amf vpx
 media-video/pipewire abi_x86_32 sound-server
 >=net-dns/libidn2-2.3.3 abi_x86_32
 >=net-libs/gnutls-3.7.7 abi_x86_32
