@@ -1,4 +1,11 @@
+de-plasma/plasma-meta -crash-handler -firewall -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility
+app-emulation/virtualbox -vboxwebsrv
+net-misc/networkmanager wifi
+dev-qt/qtmultimedia gstreamer
 >=media-video/mpv-0.34.1-r1 cplugins libmpv
+media-gfx/imagemagick webp
+net-p2p/deluge -sound
+media-libs/libcanberra alsa
 >=dev-libs/raft-0.15.0 lz4
 >=dev-util/xdelta-3.0.11-r1 lzma
 >=sys-fs/squashfs-tools-4.5.1-r1 lzma
@@ -8,7 +15,6 @@
 >=dev-libs/libgudev-237-r1 abi_x86_32
 >=media-libs/libvpx-1.12.0 postproc
 >=media-plugins/gst-plugins-vpx-1.20.3 abi_x86_32
-media-video/pipewire sound-server
 >=x11-libs/libICE-1.0.10-r1 abi_x86_32
 >=x11-libs/libSM-1.2.3-r1 abi_x86_32
 >=x11-libs/libXt-1.2.1 abi_x86_32
@@ -17,8 +23,7 @@ media-video/pipewire sound-server
 >=media-libs/libpulse-16.1-r1 abi_x86_32
 >=net-libs/libasyncns-0.8-r4 abi_x86_32
 media-sound/pulseaudio -daemon abi_x86_32
->=dev-libs/libdbusmenu-16.04.0-r2 gtk3
->=media-plugins/alsa-plugins-1.2.7.1 pulseaudio
+>=dev-libs/libdbusmenu-16.04.0-r2
 >=media-video/simplescreenrecorder-0.4.4 abi_x86_32
 >=sys-apps/attr-2.5.1-r2 abi_x86_32
 >=media-libs/fdk-aac-2.0.2 abi_x86_32
@@ -112,8 +117,8 @@ media-libs/mesa -vaapi
 >=media-sound/cdparanoia-3.10.2-r7 abi_x86_32
 >=media-sound/lame-3.100-r3 abi_x86_32
 >=media-sound/mpg123-1.30.2 abi_x86_32
->=media-video/ffmpeg-4.4.2 abi_x86_32 fdk
->=media-video/pipewire-0.3.56 abi_x86_32
+>=media-video/ffmpeg-4.4.2 abi_x86_32 fdk -amf
+media-video/pipewire abi_x86_32 sound-server
 >=net-dns/libidn2-2.3.3 abi_x86_32
 >=net-libs/gnutls-3.7.7 abi_x86_32
 >=net-wireless/wpa_supplicant-2.10-r1 dbus
