@@ -1,3 +1,4 @@
+>=app-text/ghostscript-gpl-9.56.1-r3 cups
 kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth -sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility
 app-emulation/virtualbox -vboxwebsrv
 net-misc/networkmanager wifi
