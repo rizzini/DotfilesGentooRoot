@@ -1,12 +1,14 @@
 >=app-text/ghostscript-gpl-9.56.1-r3 cups
-kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth -sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility
-app-emulation/virtualbox -vboxwebsrv
+kde-apps/kdenlive -handbook
+kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth -sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
+app-emulation/virtualbox -vboxwebsrv -wext python
 net-misc/networkmanager wifi
 dev-qt/qtmultimedia gstreamer
 dev-libs/boost python
 >=media-video/mpv-0.34.1-r1 cplugins libmpv
 media-gfx/imagemagick webp
 dev-libs/libpcre2 pcre32
+media-libs/opencv cpu_flags_x86_f16c
 net-p2p/deluge -sound
 media-libs/libcanberra alsa
 >=dev-libs/raft-0.15.0 lz4
@@ -117,7 +119,8 @@ media-libs/mesa -vaapi
 >=media-sound/cdparanoia-3.10.2-r7 abi_x86_32
 >=media-sound/lame-3.100-r3 abi_x86_32
 >=media-sound/mpg123-1.30.2 abi_x86_32
->=media-video/ffmpeg-4.4.2 abi_x86_32 fdk -amf vpx
+>=media-video/ffmpeg-4.4.2 abi_x86_32 fdk -amf vpx libass
+>=media-libs/libass-0.16.0 abi_x86_32
 media-video/pipewire abi_x86_32 sound-server
 >=net-dns/libidn2-2.3.3 abi_x86_32
 >=net-libs/gnutls-3.7.7 abi_x86_32
@@ -166,3 +169,8 @@ media-video/pipewire abi_x86_32 sound-server
 >=x11-libs/libXxf86vm-1.1.4-r2 abi_x86_32
 >=x11-libs/pango-1.50.9 abi_x86_32
 >=x11-libs/pixman-0.40.0 abi_x86_32
+
+>=dev-libs/libpcre2-10.40 abi_x86_32
+>=media-libs/libva-2.16.0 abi_x86_32
+>=net-libs/libtorrent-rasterbar-2.0.7 python
+>=media-libs/rubberband-3.1.0 ladspa
