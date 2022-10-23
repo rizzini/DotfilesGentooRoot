@@ -1,5 +1,5 @@
 [Unit]
-Description=Make BTRFS snapshots and move them to HDD
+Description=Make BTRFS snapshots and move them
 
 [Service]
 ExecStart=/home/lucas/Documentos/scripts/btrbk_

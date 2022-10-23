@@ -1,6 +1,7 @@
 >=app-text/ghostscript-gpl-9.56.1-r3 cups
 kde-apps/kdenlive -handbook
 kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth -sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
+
 app-emulation/virtualbox -vboxwebsrv -wext python
 net-misc/networkmanager wifi
 dev-qt/qtmultimedia gstreamer
