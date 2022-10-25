@@ -1,0 +1,6 @@
+[Unit]
+Description=Sync repos
+
+[Service]
+ExecStart=/usr/sbin/emaint sync -A
+Type=oneshot

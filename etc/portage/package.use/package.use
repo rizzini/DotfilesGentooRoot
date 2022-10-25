@@ -1,11 +1,11 @@
 >=app-text/ghostscript-gpl-9.56.1-r3 cups
 kde-apps/kdenlive -handbook
-kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth -sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
-
+kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
 app-emulation/virtualbox -vboxwebsrv -wext python
 net-misc/networkmanager wifi
 dev-qt/qtmultimedia gstreamer
 dev-libs/boost python
+media-fonts/nerd-fonts symbols
 >=media-video/mpv-0.34.1-r1 cplugins libmpv
 media-gfx/imagemagick webp
 dev-libs/libpcre2 pcre32
@@ -127,7 +127,7 @@ media-video/pipewire abi_x86_32 sound-server
 >=net-libs/gnutls-3.7.7 abi_x86_32
 >=net-wireless/wpa_supplicant-2.10-r1 dbus
 >=sys-apps/dbus-1.14.0-r4 abi_x86_32
->=sys-apps/systemd-251.4 abi_x86_32
+sys-apps/systemd abi_x86_32 -apparmor -audit -gnuefi -homed -qrcode -selinux -tpm -pwquality -iptables -importd -http -curl
 >=sys-apps/util-linux-2.37.4 abi_x86_32
 >=sys-apps/util-linux-2.37.4 caps
 >=sys-devel/gettext-0.21-r3 abi_x86_32
