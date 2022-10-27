@@ -16,7 +16,6 @@ CPUAccounting=true
 MemoryHigh=16M
 MemoryMax=64M
 
-
 # Hardening
 ProtectSystem=true
 ProtectHome=true

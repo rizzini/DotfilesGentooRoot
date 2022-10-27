@@ -9,5 +9,5 @@ WINEFSYNC=0
 WINEESYNC=0
 WINEDEBUG=-all
 DXVK_LOG_LEVEL=none
-WINEPREFIX=/mnt/archlinux/temp_stuff/prefixo_wine_padrao/
+WINEPREFIX=/mnt/gentoo/temp_stuff/prefixo_wine_padrao/
 WINIT_X11_SCALE_FACTOR=0.9 #alacritty
