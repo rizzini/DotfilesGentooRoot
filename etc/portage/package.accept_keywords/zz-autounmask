@@ -4,4 +4,4 @@ app-i18n/crow-translate **
 */*::steam-overlay
 app-backup/btrbk **
 dev-lang/python -~amd64
-#sys-kernel/linux-headers -~amd64
+sys-kernel/linux-headers -~amd64
