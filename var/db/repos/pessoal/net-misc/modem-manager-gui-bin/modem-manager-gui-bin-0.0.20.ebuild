@@ -25,7 +25,7 @@ BDEPEND="
     app-text/po4a
     dev-util/itstool
 "
-#S=${WORKDIR}
+S=${WORKDIR}
 
 src_install() {
 	cp -R "${WORKDIR}/etc/" "${D}/etc/"

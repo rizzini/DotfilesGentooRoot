@@ -30,8 +30,6 @@ BDEPEND="
 	dev-qt/linguist-tools:5
 	virtual/pkgconfig"
 
-
-
 src_prepare() {
 	default
 	mkdir build

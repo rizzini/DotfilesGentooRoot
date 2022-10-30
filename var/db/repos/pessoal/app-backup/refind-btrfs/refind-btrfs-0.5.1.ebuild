@@ -1,14 +1,13 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit git-r3
 
 DESCRIPTION="Generate rEFInd manual boot stanzas from Btrfs snapshots"
 
 EGIT_REPO_URI="https://github.com/Venom1991/refind-btrfs.git"
-#EGIT_SUBMODULES=( '*' )
 KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-3"
 SLOT="0"
@@ -33,13 +32,13 @@ src_prepare() {
 	mkdir -p "${D}/usr/bin/"
 	mkdir -p "${D}/usr/lib/systemd/system/"
 	mkdir -p "${D}/etc/"
-
-
 }
+
 src_compile() {
 	cd "${S}/${P}"
 	python setup.py build
 }
+
 src_install() {
 	cd "${S}/${P}"
 	python setup.py install --root="${D}/" --optimize=1 --skip-build
@@ -49,7 +48,6 @@ src_install() {
 	keepdir '/var/lib/refind-btrfs'
 }
 
-
 pkg_postinst() {
 	elog "libbtrfsutil needs to be already present in the system site packages (its Python bindings, to be precise)"
 	elog "because it cannot be automatically pulled in as a dependency. Chances are that it is available for your"
@@ -57,4 +55,3 @@ pkg_postinst() {
 	elog "it installed as I suppose you are using Btrfs, after all."
 	elog "Alternativally, download it from: https://pkgs.org/download/python3-btrfsutil"
 }
-
