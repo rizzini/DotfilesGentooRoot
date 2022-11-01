@@ -1,4 +1,6 @@
 app-text/ghostscript-gpl cups
+net-print/cups -kerberos -X
+net-dns/libidn -emacs
 kde-apps/kdenlive -handbook
 kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
 app-emulation/virtualbox -vboxwebsrv -wext python
@@ -11,6 +13,8 @@ x11-libs/libxkbcommon wayland
 dev-libs/boost python
 media-fonts/nerd-fonts symbols
 media-video/mpv cplugins libmpv
+sys-apps/hwloc -X
+app-text/highlight -examples -qt5
 media-gfx/imagemagick webp
 media-libs/opencv cpu_flags_x86_f16c
 net-p2p/deluge -sound
@@ -20,15 +24,18 @@ dev-util/xdelta lzma
 sys-fs/squashfs-tools lzma
 media-libs/libvpx postproc
 dev-libs/libdbusmenu
-#media-video/simplescreenrecorder abi_x86_32
+media-video/simplescreenrecorder v4l
 app-admin/sudo -sendmail
-dev-qt/qtprintsupport cups
+dev-qt/qtprintsupport -cups
 dev-vcs/git -webdav
 media-video/ffmpeg fdk -amf vpx libass
-net-wireless/wpa_supplicant dbus
 sys-apps/util-linux caps
 net-libs/libtorrent-rasterbar python
 media-libs/rubberband ladspa
+sys-auth/pambase minimal -passwdqc
+sys-auth/polkit -examples
+media-gfx/imagemagick -X -graphviz -postscript -zip -zlib -truetype -perl -pango -openmp -openexr -opencl -lzma -lcms -djvu -cxx -corefonts
+media-video/mediainfo -wxwidgets
 
 #WINE
 media-sound/pulseaudio-daemon alsa
