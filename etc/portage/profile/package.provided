@@ -2,9 +2,7 @@ virtual/linux-sources-3-r100
 kde-plasma/plasma-systemmonitor-5.26.2
 kde-plasma/ksystemstats-5.26.2
 kde-plasma/ksshaskpass-5.26.2
-virtual/secret-service-0
 gnome-extra/polkit-gnome-0.105-r2
-gnome-base/gsettings-desktop-schemas-43.0
 net-wireless/wpa_supplicant-2.10-r1
 
 

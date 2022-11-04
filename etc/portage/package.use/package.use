@@ -1,10 +1,20 @@
+net-fs/samba -regedit
+media-libs/mesa wayland
+media-libs/libva-intel-driver hybrid
+gnome-base/gvfs -udisks -udev -cdda
+kde-apps/kate-addons -projects -snippets -filebrowser
+kde-plasma/plasma-desktop -kaccounts
 app-text/ghostscript-gpl cups
 net-print/cups -kerberos -X
+app-editors/nano magic
+media-sound/spotify -libnotify
 net-dns/libidn -emacs
-kde-apps/kdenlive -handbook
-kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth sdk -grub -handbook -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
+kde-apps/kdenlive
+#kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth sdk -grub -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
+kde-plasma/kdeplasma-addons -alternate-calendar
 app-emulation/virtualbox -vboxwebsrv -wext python
-net-misc/networkmanager wifi
+sys-apps/lshw -gtk
+net-misc/networkmanager wifi -wext -gtk-doc
 dev-qt/qtmultimedia gstreamer
 www-client/firefox wayland -jack -libproxy -screencast hwaccel -selinux -sndio -wifi
 x11-libs/gtk+ wayland
@@ -12,8 +22,9 @@ x11-misc/appmenu-gtk-module wayland
 x11-libs/libxkbcommon wayland
 dev-libs/boost python
 media-fonts/nerd-fonts symbols
-media-video/mpv cplugins libmpv
+media-video/mpv -vulkan -jpeg cplugins libmpv -zlib
 sys-apps/hwloc -X
+sys-apps/exa -git
 app-text/highlight -examples -qt5
 media-gfx/imagemagick webp
 media-libs/opencv cpu_flags_x86_f16c
@@ -24,11 +35,11 @@ dev-util/xdelta lzma
 sys-fs/squashfs-tools lzma
 media-libs/libvpx postproc
 dev-libs/libdbusmenu
-media-video/simplescreenrecorder v4l
+media-video/simplescreenrecorder v4l -vorbis -opengl
 app-admin/sudo -sendmail
 dev-qt/qtprintsupport -cups
 dev-vcs/git -webdav
-media-video/ffmpeg fdk -amf vpx libass
+media-video/ffmpeg fdk -amf vpx libass libv4l v4l
 sys-apps/util-linux caps
 net-libs/libtorrent-rasterbar python
 media-libs/rubberband ladspa

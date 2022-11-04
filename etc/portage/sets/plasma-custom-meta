@@ -5,7 +5,7 @@ virtual/mta
 acct-user/nullmail
 media-libs/webrtc-audio-processing
 kde-plasma/kde-gtk-config
-kde-plasma/plasma-browser-integration
+#kde-plasma/plasma-browser-integration
 kde-plasma/bluedevil
 net-libs/accounts-qml
 kde-plasma/khotkeys
@@ -32,10 +32,9 @@ kde-plasma/breeze-gtk
 kde-plasma/kwayland-integration
 kde-frameworks/kpty
 kde-frameworks/bluez-qt
-kde-plasma/plasma-meta
 kde-plasma/xdg-desktop-portal-kde
 sys-libs/libutempter
-kde-frameworks/purpose
+#kde-frameworks/purpose
 kde-plasma/plasma-nm
 sys-power/upower
 sys-fs/fuse-common

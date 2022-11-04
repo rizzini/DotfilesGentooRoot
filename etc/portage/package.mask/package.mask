@@ -1,3 +1,2 @@
 virtual/linux-sources
 >app-shells/fish-3.3.1-r1
-virtual/secret-service
