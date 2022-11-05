@@ -29,7 +29,7 @@ kde-frameworks/networkmanager-qt
 x11-misc/xsettingsd
 dev-qt/qtsensors
 kde-plasma/breeze-gtk
-kde-plasma/kwayland-integration
+#kde-plasma/kwayland-integration
 kde-frameworks/kpty
 kde-frameworks/bluez-qt
 kde-plasma/xdg-desktop-portal-kde

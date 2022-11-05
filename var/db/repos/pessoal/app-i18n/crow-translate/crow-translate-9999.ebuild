@@ -46,6 +46,8 @@ src_install() {
 	cd build
 	insinto /usr/share/crow-translate/translations/
 	doins ./*.qm
+	insinto /usr/share/applications/
+	doins ../data/io.crow_translate.CrowTranslate.desktop
 	dobin crow
 
 }

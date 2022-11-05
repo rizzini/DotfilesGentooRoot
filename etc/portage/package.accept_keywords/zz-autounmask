@@ -1,4 +1,5 @@
 app-i18n/crow-translate **
+media-libs/mesa **
 */*::steam-overlay
 dev-lang/python -~amd64
 sys-kernel/linux-headers -~amd64
