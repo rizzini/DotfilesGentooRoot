@@ -15,8 +15,7 @@ darkelf_postmerge_distclean(){
  done
 }
 
-post_pkg_postinst(){
- if grep -q "postmerge_distclean" <<< $DARKELF_FEATURES ; then
-  darkelf_postmerge_distclean
- fi
-}
+if [[ "${EBUILD_PHASE}" == "postinst" && "${CATEGORY}/${PN}" ==  'kde-plasma/plasma-workspace' ]]; then
+    rm -f /usr/bin/krunner;
+    echo 'deletou';
+fi

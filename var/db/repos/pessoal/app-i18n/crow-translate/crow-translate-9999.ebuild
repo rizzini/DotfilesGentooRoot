@@ -10,7 +10,6 @@ HOMEPAGE="https://github.com/crow-translate/crow-translate"
 
 EGIT_REPO_URI="https://github.com/crow-translate/crow-translate.git"
 EGIT_SUBMODULES=( '*' )
-PROPERTIES+=" live"
 KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-3"
 SLOT="0"
@@ -49,7 +48,6 @@ src_install() {
 	insinto /usr/share/applications/
 	doins ../data/io.crow_translate.CrowTranslate.desktop
 	dobin crow
-
 }
 
 pkg_postinst() {
