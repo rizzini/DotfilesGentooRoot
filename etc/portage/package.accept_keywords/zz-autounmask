@@ -2,7 +2,6 @@ app-i18n/crow-translate **
 media-libs/mesa **
 */*::steam-overlay
 dev-lang/python -~amd64
-sys-kernel/linux-headers -~amd64
 app-emulation/virtualbox-modules -~amd64
 app-emulation/virtualbox-extpack-oracle -~amd64
 app-emulation/virtualbox -~amd64

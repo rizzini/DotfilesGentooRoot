@@ -150,7 +150,7 @@ media-sound/pulseaudio-daemon alsa
 >=dev-libs/nettle-3.8.1 abi_x86_32
 >=dev-libs/gmp-6.2.1-r2 abi_x86_32
 >=net-dns/libidn2-2.3.4 abi_x86_32
->=media-video/pipewire-0.3.59-r2 abi_x86_32 sound-server extra
+>=media-video/pipewire-0.3.59-r2 abi_x86_32 sound-server extra echo-cancel
 >=virtual/libintl-0-r2 abi_x86_32
 >=virtual/libudev-232-r7 abi_x86_32
 >=sys-apps/systemd-251.7 abi_x86_32 -apparmor -audit -gnuefi -homed -qrcode -selinux -tpm -pwquality -iptables -importd -http -curl
