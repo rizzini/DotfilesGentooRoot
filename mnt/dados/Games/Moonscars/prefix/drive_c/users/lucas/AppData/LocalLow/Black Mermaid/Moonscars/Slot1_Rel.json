@@ -1,0 +1,404 @@
+{
+  "Version": 17,
+  "PlayerName": "Slot1_Rel",
+  "PlayerData": {
+    "Upgrade_Gauntlet": false,
+    "Upgrade_LongDash": false,
+    "Upgrade_FleshWall": false,
+    "InventoryRepresentation": {
+      "CurrencyGoldOriginal": 0,
+      "CurrencyGoldClone": 0,
+      "CurrencyGlands": 2,
+      "ManaBlocksAvailable": 2,
+      "ManaPenaltyCount": 0,
+      "ItemsOwningGUIDs": {
+        "beafd0ad-f0f0-41a7-b41c-1b92cc67f4d5": 1,
+        "5edaa7da-ab48-4b74-8dd4-3ea2edaf0ab0": 1,
+        "2e790dd5-60c5-4968-9a7b-eff2ac606ef9": 1,
+        "2a3b4f7c-0a96-4bfc-b035-a9a6dff76b07": 1
+      },
+      "EquippedSpellsGUIDs": [
+        "beafd0ad-f0f0-41a7-b41c-1b92cc67f4d5",
+        null,
+        null
+      ],
+      "EquippedWeaponsGUIDs": null,
+      "WeaponSelectedSlot": 0,
+      "WeaponClone": "dd6917d4-9de6-414d-8cfe-941b1d565686",
+      "LastWeapon": "dd6917d4-9de6-414d-8cfe-941b1d565686",
+      "WeaponFamiliarityTarget": null,
+      "FamiliarityCurrentPoints": 0,
+      "EquippedAmuletsGUIDs": [
+        "5edaa7da-ab48-4b74-8dd4-3ea2edaf0ab0",
+        null,
+        null
+      ]
+    },
+    "PlayerOriginalData": {
+      "Position": {
+        "x": -246.01,
+        "y": 6.23805
+      },
+      "ShadingType": 0,
+      "SavePointGUID": "savePoint_02132c65-ebde-4b19-afad-be9c5caa5cbb",
+      "CurrentHealthMissing": 0,
+      "CurrentManaMissing": 0,
+      "CurrentManaDebt": 0
+    },
+    "PlayerCloneData": null,
+    "PlayerCloneDataActive": false,
+    "IsControllingOriginal": true,
+    "SkillTreeUnlockedSpells": true,
+    "SkillTreeUnlockedBuffs": true,
+    "SkillTreeUnlockedCombatSkills": true,
+    "CollectiblesFoundCountMaxHP": 1,
+    "CollectiblesFoundCountDamage": 0,
+    "ManaPenaltyCount": 0,
+    "MaxWeaponTierAvailable": 0,
+    "TutorialParryUnlocked": true,
+    "TutorialMoonhungerShowed": true,
+    "TutorialGravesShowed": true,
+    "DiscoveredWeapons": [
+      5
+    ],
+    "IsDoppelgangerActive": false
+  },
+  "WorldData": {
+    "MoonhungerActive": true,
+    "UnlockedSavePoints": [
+      "savePoint_hub",
+      "savePoint_d02b126f-2d4d-41be-8770-43d983fb2a82",
+      "savePoint_02132c65-ebde-4b19-afad-be9c5caa5cbb"
+    ],
+    "PlayerGraves": [
+      {
+        "Position": {
+          "x": -214.933151,
+          "y": 14.8809509
+        },
+        "BonePowder": 679,
+        "DarkAether": 0
+      }
+    ],
+    "ReinforcementSavePointDatas": [],
+    "DeathCountOriginal": 8,
+    "DeathCountClone": 0,
+    "SpecialGeneratedCount": 1,
+    "CloneMachineUsedCount": 1,
+    "DoppelgangerCreationCount": 0,
+    "MoonStatus": 0,
+    "TutorialStage": 999,
+    "TutorialInventoryFirstTimeOpened": true,
+    "TutorialSavePointFirstTimeOpened": false,
+    "TutorialHealHintFirstTimeShowed": true,
+    "MapCustomMarks": [],
+    "DiscoveredMapAreas": [
+      23,
+      24,
+      25,
+      26,
+      28,
+      27,
+      29,
+      158,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "BraveryData": {
+    "BraveryLevel": 1,
+    "BraveryPoints": 0,
+    "BraveryPointsLeftToUse": 0,
+    "BraveryBonusesAvailableToLearn": [
+      0,
+      5,
+      2
+    ],
+    "BraveryBonusesActive": [
+      4
+    ],
+    "MoonblessedActiveBonuses": []
+  },
+  "GlobalFlags": {
+    "_flags": [
+      {
+        "Key": "GruntOnNoticeIsPaused",
+        "Value": "False"
+      },
+      {
+        "Key": "EXT/InitGoalIsSet",
+        "Value": "True"
+      },
+      {
+        "Key": "trgGate_cfacdf3b-a9f5-430f-a54f-81ce30f24a12",
+        "Value": "True"
+      },
+      {
+        "Key": "EXT_HungerFadedAway",
+        "Value": "true"
+      },
+      {
+        "Key": "TUTORIAL/SpellMomonIsDead",
+        "Value": "true"
+      },
+      {
+        "Key": "trgGate_78faa2a6-6b6a-4ad0-8bb2-4d2fe9045634",
+        "Value": "True"
+      },
+      {
+        "Key": "EXT/EtalagTeaserIsHidden",
+        "Value": "true"
+      },
+      {
+        "Key": "TUTORIAL/HintUseParry",
+        "Value": "True"
+      },
+      {
+        "Key": "_popupResult",
+        "Value": "True"
+      },
+      {
+        "Key": "TUTORIAL/HintAmuletPicked",
+        "Value": "True"
+      },
+      {
+        "Key": "door_e9764dad-9517-482f-863b-fb42b97e3271",
+        "Value": "True"
+      },
+      {
+        "Key": "lever_e57dc4e7-2876-4680-b396-c514cdf985a7",
+        "Value": "True"
+      },
+      {
+        "Key": "destr_1f818e92-bd0d-4898-86ac-95dcf9f7f2ed",
+        "Value": "True"
+      },
+      {
+        "Key": "trgGate_e6afd326-f5cf-4050-8faf-7ad0d2911afa",
+        "Value": "True"
+      },
+      {
+        "Key": "door_a08837d0-cd50-4d20-b426-c0b1f95af521",
+        "Value": "True"
+      },
+      {
+        "Key": "door_a60900f6-4f03-4b5d-8c63-66f98286308a",
+        "Value": "True"
+      },
+      {
+        "Key": "EXTChallenge1_IsCompleted",
+        "Value": "true"
+      },
+      {
+        "Key": "platform_dbe1df1f-ff7f-47d8-8881-8ff6cb787065",
+        "Value": "1"
+      },
+      {
+        "Key": "lever_407945fd-6b7f-4b34-8a1e-5eb0e6a6c382",
+        "Value": "True"
+      },
+      {
+        "Key": "destr_0c78db07-71b3-4275-9d15-dd4edec168bd",
+        "Value": "True"
+      },
+      {
+        "Key": "EXT/EtalagIsMet",
+        "Value": "True"
+      },
+      {
+        "Key": "trgGate_48202145-e610-4159-a5e5-290015032259",
+        "Value": "True"
+      },
+      {
+        "Key": "HUB/TheFirstOneIsMet",
+        "Value": "True"
+      },
+      {
+        "Key": "door_0157f399-6f08-4e9b-a565-c9ad1da0340e",
+        "Value": "False"
+      },
+      {
+        "Key": "door_8d02a4e0-4df6-4c50-868b-179bb516b655",
+        "Value": "False"
+      },
+      {
+        "Key": "HUB/GargoylesOnFirstReplication",
+        "Value": "True"
+      },
+      {
+        "Key": "TUTORIAL/HintUseSpecial_1",
+        "Value": "True"
+      },
+      {
+        "Key": "platform_adeec822-8af7-40b3-8b00-44396d25677a",
+        "Value": "1"
+      },
+      {
+        "Key": "TUTORIAL/HintUseSpecial_2",
+        "Value": "true"
+      },
+      {
+        "Key": "destr_308d6e6a-b6ea-4d58-b48d-bb71bb0197d9",
+        "Value": "True"
+      },
+      {
+        "Key": "destr_c7873719-4127-463e-862c-39f2ab9b69cb",
+        "Value": "True"
+      },
+      {
+        "Key": "platform_b11b9b5a-5fc4-4654-ba08-248d172d5baf",
+        "Value": "1"
+      },
+      {
+        "Key": "lever_dfd97ad0-636a-4168-acd6-f2e476fd8f98",
+        "Value": "True"
+      },
+      {
+        "Key": "trgGate_0cc3ec7d-5896-4914-8640-8fae6918f31b",
+        "Value": "True"
+      },
+      {
+        "Key": "trgGate_fc06d2ea-3d1a-482c-909f-c1e8f2c40ef4",
+        "Value": "True"
+      },
+      {
+        "Key": "door_212e959c-7008-4772-820f-58cbe4ba54bd",
+        "Value": "True"
+      },
+      {
+        "Key": "door_e10c6c2c-1ce6-4bff-9c14-1d2dac3f473b",
+        "Value": "True"
+      },
+      {
+        "Key": "EXTChallenge2_IsCompleted",
+        "Value": "true"
+      },
+      {
+        "Key": "platform_872750d5-03e1-496e-a866-808bf69b4a3c",
+        "Value": "1"
+      },
+      {
+        "Key": "lever_a366a7f8-58fb-4b63-ae75-1e615e6dcf65",
+        "Value": "True"
+      },
+      {
+        "Key": "door_48e97457-4a7e-41d2-b202-8a0c8085835a",
+        "Value": "True"
+      },
+      {
+        "Key": "lever_00dacf02-b09b-422c-aae2-0f816fabb429",
+        "Value": "True"
+      },
+      {
+        "Key": "EXT/EtalagAboutIrmaExitedWorkshop",
+        "Value": "True"
+      },
+      {
+        "Key": "destr_863734c2-6708-4680-b52b-0a55d8595654",
+        "Value": "True"
+      },
+      {
+        "Key": "platform_187c855b-fb79-4a14-beed-018112e4c35d",
+        "Value": "1"
+      },
+      {
+        "Key": "lever_99963493-3bd1-4198-8fb5-ba548d482fb7",
+        "Value": "True"
+      },
+      {
+        "Key": "destr_b27f44d3-8e4c-4270-b1e1-7cf78371a7a2",
+        "Value": "True"
+      }
+    ]
+  },
+  "ShopsData": {
+    "_shopDatasRaw": {}
+  },
+  "_levelDatas": [
+    {
+      "SceneName": "Exterior_Miscellaneous",
+      "LevelFlags": {
+        "_flags": []
+      },
+      "DeadUnitsGUIDs": [],
+      "DeadUnitsForeverGUIDs": [],
+      "PickupGUIDs": [
+        "8f5aa222-df6f-4390-9c90-da5c562313fd",
+        "aad92bf9-206b-4699-af22-22b5155a3fe7",
+        "2bddb7d9-9861-458e-b11d-79302029ee17",
+        "f7814876-2502-42af-aad3-9fb3b8b82d96",
+        "bb6f51d2-cea0-4430-820b-d351a43f3971",
+        "49f520e1-d310-43fe-b4af-12aa6e658962",
+        "bb755b34-4215-4a05-9f41-774ec98fba79",
+        "9ec55fe9-f672-48ed-9ff0-58fae3e04156",
+        "b37357cf-de23-499a-80e0-9769afc717b2",
+        "e5928b6b-778f-4c70-9b13-70f2b8752fe4",
+        "c629fe84-3307-436a-9811-584dbe4657a1",
+        "751aa54a-8802-4e9b-852e-7fa03ef0c9ee",
+        "24b67878-4e04-49ba-851e-0dd1b1c80941",
+        "0d66505e-5259-4367-aec9-5ce81652cc4b"
+      ]
+    },
+    {
+      "SceneName": "Exterior_1_f",
+      "LevelFlags": {
+        "_flags": []
+      },
+      "DeadUnitsGUIDs": [],
+      "DeadUnitsForeverGUIDs": [
+        "CutsceneGreyIrmaFighting",
+        "CutsceneGreyIrmaLying_1",
+        "CutsceneGreyIrmaBeingChoked",
+        "CutsceneChokran",
+        "CutsceneWanda",
+        "CutsceneEtalag",
+        "CutsceneLaios",
+        "CutsceneRedIrmaInDisguise",
+        "CutsceneTheFirstOne",
+        "CutsceneGreyIrmaLying_2",
+        "772ccdb9-d123-4ca3-8893-9be747326669",
+        "1d578822-ebbd-4e5a-9aae-f6a34cd2a30c",
+        "NPC_AdelinkaTeases"
+      ],
+      "PickupGUIDs": []
+    },
+    {
+      "SceneName": "Exterior_2_f",
+      "LevelFlags": {
+        "_flags": []
+      },
+      "DeadUnitsGUIDs": [],
+      "DeadUnitsForeverGUIDs": [
+        "NPC_Etalag",
+        "NPC_TheFirstOneProp",
+        "NPC_EtalagProp_2",
+        "NPC_EtalagExitsWorkshop"
+      ],
+      "PickupGUIDs": []
+    },
+    {
+      "SceneName": "Hub_f",
+      "LevelFlags": {
+        "_flags": []
+      },
+      "DeadUnitsGUIDs": [],
+      "DeadUnitsForeverGUIDs": [
+        "NPC_TheFirstOneFirstTimeInWorkshop",
+        "NPC_EtalagFirstTimeInWorkshop",
+        "NPC_TheFirstOneBeforeFirstReplication"
+      ],
+      "PickupGUIDs": []
+    },
+    {
+      "SceneName": "Exterior_3_f",
+      "LevelFlags": {
+        "_flags": []
+      },
+      "DeadUnitsGUIDs": [],
+      "DeadUnitsForeverGUIDs": [],
+      "PickupGUIDs": []
+    }
+  ]
+}
