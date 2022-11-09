@@ -1,3 +1,4 @@
+app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386
 net-fs/samba -regedit
 media-libs/mesa wayland
 media-libs/libva-intel-driver hybrid
@@ -9,7 +10,6 @@ net-print/cups -kerberos -X
 app-editors/nano magic
 media-sound/spotify -libnotify
 net-dns/libidn -emacs
-kde-apps/kdenlive
 #kde-plasma/plasma-meta -crash-handler -firewall -discover -plymouth sdk -grub -kwallet -plymouth -wallpapers -legacy-systray -accessibility -crypt -legacy-systray
 kde-plasma/kdeplasma-addons -alternate-calendar
 app-emulation/virtualbox -vboxwebsrv -wext python
@@ -99,7 +99,7 @@ media-sound/pulseaudio-daemon alsa
 >=x11-libs/libxshmfence-1.3.1 abi_x86_32
 >=x11-libs/libxcb-1.15-r1 abi_x86_32
 >=app-arch/zstd-1.5.2-r3 abi_x86_32
->=sys-devel/llvm-15.0.3 abi_x86_32
+sys-devel/llvm abi_x86_32 zstd
 >=dev-libs/libffi-3.4.4 abi_x86_32
 >=sys-libs/ncurses-6.3_p20220924 abi_x86_32
 >=dev-libs/libxml2-2.10.3 abi_x86_32
@@ -197,3 +197,14 @@ app-misc/emote python_targets_python3_8
 >=dev-python/cython-0.29.32 python_targets_python3_8
 >=dev-python/pycairo-1.21.0-r1 python_targets_python3_8
 >=dev-python/six-1.16.0-r1 python_targets_python3_8
+
+#qemu
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test,gui]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.41 usbredir
+# required by app-emulation/libvirt-8.8.0-r1::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.87 script
+

@@ -3,7 +3,7 @@ Description=Make BTRFS snapshots and move them to HDD
 
 [Timer]
 OnCalendar=00/3:00
-Persistent=true
+#Persistent=true
 
 [Install]
 WantedBy=timers.target

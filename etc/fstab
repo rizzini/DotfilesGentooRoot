@@ -6,7 +6,10 @@ UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /mnt/gentoo  btrfs   rw,noatime,disc
 UUID=b413892e-b35c-44e1-b243-dffcf494dde0   /home/lucas/.cache     btrfs           rw,noatime,discard,space_cache=v2,subvol=CACHE    0 0
 UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/ccache   	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=CCACHE	0 0
 UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/var/tmp/portage	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=PORTAGE	0 0
-UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/var/db/repos	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=REPOS	0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/var/lib/libvirt/images	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=.qemu-images	0 0
+UUID=b413892e-b35c-44e1-b243-dffcf494dde0	/var/cache	btrfs     	rw,noatime,ssd,discard,space_cache=v2,subvol=.var-cache	0 0
+
+
 
 UUID=fc7f0201-7c47-4d6c-a368-378c20983f65	none      	swap      	defaults  	0 0
 
