@@ -5,6 +5,8 @@ StartLimitIntervalSec=0
 StartLimitBurst=10
 
 [Service]
+StandardOutput=null
+#StandardError=null
 Type=simple
 ExecStart=/usr/bin/ananicy-cpp start
 Nice=-5
