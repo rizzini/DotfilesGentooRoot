@@ -1,4 +1,5 @@
-app-emulation/qemu usbredir spice virgl
+sys-kernel/linux-firmware savedconfig
+app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386
 net-fs/samba -regedit
 media-libs/mesa wayland
 media-libs/libva-intel-driver hybrid
