@@ -1,0 +1,6 @@
+[Unit]
+Description=Check BTRFS storage devices' health
+
+[Service]
+ExecStart=/home/lucas/Documentos/scripts/check_btrfs_health.sh
+Type=oneshot

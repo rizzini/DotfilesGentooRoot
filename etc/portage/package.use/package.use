@@ -2,7 +2,7 @@ sys-kernel/linux-firmware savedconfig
 app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386
 net-fs/samba -regedit
 media-libs/mesa wayland
-media-libs/libva-intel-driver hybrid
+media-libs/libva-intel-driver
 gnome-base/gvfs -udisks -udev -cdda
 kde-apps/kate-addons -projects -snippets -filebrowser
 kde-plasma/plasma-desktop -kaccounts
@@ -23,7 +23,7 @@ x11-misc/appmenu-gtk-module wayland
 x11-libs/libxkbcommon wayland
 dev-libs/boost python
 media-fonts/nerd-fonts symbols
-media-video/mpv -vulkan -jpeg cplugins libmpv -zlib
+media-video/mpv -jpeg cplugins libmpv -zlib
 sys-apps/hwloc -X
 sys-apps/exa -git
 app-text/highlight -examples -qt5
@@ -38,7 +38,7 @@ media-libs/libvpx postproc
 dev-libs/libdbusmenu
 media-video/simplescreenrecorder v4l -vorbis -opengl
 app-admin/sudo -sendmail
-dev-qt/qtprintsupport -cups
+dev-qt/qtprintsupport cups #-cups
 dev-vcs/git -webdav
 media-video/ffmpeg fdk -amf vpx libass libv4l v4l
 sys-apps/util-linux caps
