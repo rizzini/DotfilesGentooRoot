@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable KSM
+
+[Service]
+ExecStart=/bin/bash -c ' echo 1 > /sys/kernel/mm/ksm/run'
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

@@ -40,7 +40,7 @@ media-video/simplescreenrecorder v4l -vorbis -opengl
 app-admin/sudo -sendmail
 dev-qt/qtprintsupport cups #-cups
 dev-vcs/git -webdav
-media-video/ffmpeg fdk -amf vpx libass libv4l v4l
+media-video/ffmpeg fdk -amf vpx libass libv4l v4l opus #telegram
 sys-apps/util-linux caps
 net-libs/libtorrent-rasterbar python
 media-libs/rubberband ladspa
