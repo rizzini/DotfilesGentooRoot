@@ -5,4 +5,3 @@ app-emulation/virtualbox-modules -~amd64
 app-emulation/virtualbox-extpack-oracle -~amd64
 app-emulation/virtualbox -~amd64
 app-emulation/qemu **
-#media-video/mpv -~amd64
