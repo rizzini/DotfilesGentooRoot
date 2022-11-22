@@ -22,7 +22,7 @@ x11-libs/gtk+ wayland
 x11-misc/appmenu-gtk-module wayland
 x11-libs/libxkbcommon wayland
 dev-libs/boost python
-media-fonts/nerd-fonts symbols
+media-fonts/nerd-fonts symbols victormono
 media-video/mpv -jpeg cplugins libmpv -zlib
 sys-apps/hwloc -X
 sys-apps/exa -git
@@ -48,7 +48,6 @@ sys-auth/pambase minimal -passwdqc
 sys-auth/polkit -examples
 media-gfx/imagemagick -X -graphviz -postscript -zip -zlib -truetype -perl -pango -openmp -openexr -opencl -lzma -lcms -djvu -cxx -corefonts
 media-video/mediainfo -wxwidgets
-
 #WINE
 media-sound/pulseaudio-daemon alsa
 >=media-libs/alsa-lib-1.2.8 abi_x86_32
