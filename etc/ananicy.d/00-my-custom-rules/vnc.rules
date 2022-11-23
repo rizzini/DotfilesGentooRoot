@@ -1,0 +1,2 @@
+{ "name": "cc1plus", "type": "compiler" }
+{ "name": "vncviewer", "nice": -11, "ioclass": "realtime", "latency_nice": -13 }

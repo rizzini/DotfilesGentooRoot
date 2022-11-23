@@ -1,5 +1,6 @@
+net-misc/tigervnc -server -opengl
 sys-kernel/linux-firmware savedconfig
-app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386
+app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386 vnc
 net-fs/samba -regedit
 media-libs/mesa wayland
 media-libs/libva-intel-driver
