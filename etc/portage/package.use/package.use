@@ -1,4 +1,4 @@
-net-misc/tigervnc -server -opengl
+net-misc/tigervnc
 sys-kernel/linux-firmware savedconfig
 app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386 vnc
 net-fs/samba -regedit
