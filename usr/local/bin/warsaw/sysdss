@@ -1,0 +1,74 @@
+#!/bin/bash
+
+update_warsaw_init() {
+  cat <<EOF > $1
+#!/bin/bash
+
+### BEGIN INIT INFO
+# Provides:          warsaw
+# Required-Start:    \$remote_fs \$syslog
+# Required-Stop:     \$remote_fs \$syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Warsaw Service
+# Description:       Warsaw Service
+#  Developed by GAS Tecnologia<info@gastecnologia.com.br>
+#  Copyright 2015 GAS Tecnologia
+### END INIT INFO
+
+systemctl_wrapper() {
+  hash systemctl > /dev/null 2>&1 || return 2
+  systemctl \$1 warsaw.service
+  return 0
+}
+
+case "\$1" in
+    start)
+        systemctl_wrapper start || warsaw start
+        ;;
+    stop)
+        systemctl_wrapper stop || warsaw stop
+        ;;
+    restart)
+        if ! systemctl_wrapper restart; then
+          warsaw stop
+          warsaw start
+        fi
+        ;;
+    *)
+        exit 1
+        ;;
+esac
+exit 0
+EOF
+}
+
+create_system_unit() {
+cat <<EOF > $1
+[Unit]
+Description=Warsaw Desktop
+After=multi-user.target dbus.service
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/warsaw/core
+PIDFile=/var/run/core.pid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+}
+
+hash systemctl 2>/dev/null || exit 2 
+
+for systemd_path in /lib/systemd/system /usr/lib/systemd/system; do
+  if [ -f ${systemd_path}/warsaw.service ]; then
+    create_system_unit ${systemd_path}/warsaw.service
+    systemctl daemon-reload
+    systemctl enable warsaw.service
+    break
+  fi
+done
+
+[ -f /etc/init.d/warsaw ] && update_warsaw_init /etc/init.d/warsaw

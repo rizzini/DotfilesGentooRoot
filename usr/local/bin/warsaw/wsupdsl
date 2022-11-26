@@ -1,0 +1,26 @@
+#!/bin/bash
+CORE_BIN=/usr/local/bin/warsaw/core
+STARTUP_SCRIPT=/usr/bin/warsaw
+RETRY=60
+[ $(id -u) -eq 0 ] || exit 1
+[ -x ${CORE_BIN} ] || exit 2
+[ -x ${STARTUP_SCRIPT} ] || exit 3
+{
+  while [ ${RETRY} -gt 0 ]; do
+    if [ $(pgrep -c -f warsaw\ restart) -ne 0 ]; then
+      break;
+    elif [ -f /proc/$(cat < /var/run/core.pid)/cmdline ]; then
+      sleep 1
+    else
+      if hash systemctl > /dev/null 2>&1; then
+        systemctl restart warsaw
+      else 
+        ${STARTUP_SCRIPT} start
+      fi
+      break
+    fi
+    RETRY=$((RETRY-1))
+  done
+} &
+disown %1
+exit 0

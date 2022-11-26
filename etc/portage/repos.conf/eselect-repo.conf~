@@ -31,7 +31,8 @@ sync-uri = https://github.com/gentoo-mirror/steam-overlay.git
 
 
 
-[mv]
-location = /var/db/repos/mv
+
+[ace]
+location = /var/db/repos/ace
 sync-type = git
-sync-uri = https://github.com/gentoo-mirror/mv.git
+sync-uri = https://github.com/gentoo-mirror/ace.git
