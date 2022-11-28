@@ -1,4 +1,3 @@
-net-im/teams
 net-misc/tigervnc -opengl -server
 sys-kernel/linux-firmware savedconfig
 app-emulation/qemu usbredir spice virgl qemu_softmmu_targets_i386 vnc
@@ -200,13 +199,5 @@ app-misc/emote python_targets_python3_8
 >=dev-python/pycairo-1.21.0-r1 python_targets_python3_8
 >=dev-python/six-1.16.0-r1 python_targets_python3_8
 
-#qemu
-# required by app-emulation/virt-manager-4.1.0::gentoo[-test,gui]
-# required by virt-manager (argument)
->=net-misc/spice-gtk-0.41 usbredir
-# required by app-emulation/libvirt-8.8.0-r1::gentoo[virt-network]
-# required by app-emulation/libvirt-glib-4.0.0::gentoo
-# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
-# required by virt-manager (argument)
->=net-dns/dnsmasq-2.87 script
+
 
