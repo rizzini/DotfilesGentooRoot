@@ -1,4 +1,4 @@
-net-misc/tigervnc -opengl -server
+#net-misc/tigervnc -opengl -server
 kde-misc/kdeconnect -pulseaudio -bluetooth
 sys-kernel/linux-firmware savedconfig
 kde-apps/kio-extras samba
